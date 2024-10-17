@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/free-icon-arrow-3634054.png</file>
+        <file>Icons/free-icon-arrow-3634356.png</file>
+        <file>Icons/free-icon-arrow-5049893.png</file>
+        <file>Icons/free-icon-clear-format-8233927.png</file>
+        <file>Icons/free-icon-close-4013407.png</file>
+        <file>Icons/free-icon-document-7596681.png</file>
+        <file>Icons/free-icon-info-1445402.png</file>
+        <file>Icons/free-icon-new-page-6604902.png</file>
+        <file>Icons/free-icon-open-file-4847498.png</file>
+        <file>Icons/free-icon-save-2550221.png</file>
+        <file>Icons/free-icon-save-as-11159608.png</file>
+        <file>Icons/free-icon-zoom-out-3594005.png</file>
+    </qresource>
+</RCC>

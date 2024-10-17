@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Qt project/Lab_3_E",
+	"CMAKE_SOURCE_DIR" : "C:/Qt project/Lab_3_E",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Qt project/Lab_3_E/Icons/free-icon-document-7596681.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-close-4013407.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-info-1445402.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-zoom-out-3594005.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-arrow-5049893.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-save-2550221.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-open-file-4847498.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-arrow-3634054.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-clear-format-8233927.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-new-page-6604902.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-arrow-3634356.png",
+		"C:/Qt project/Lab_3_E/Icons/free-icon-save-as-11159608.png"
+	],
+	"LOCK_FILE" : "C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/Lab_3_E_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/Lab_3_E_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Qt project/Lab_3_E/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
