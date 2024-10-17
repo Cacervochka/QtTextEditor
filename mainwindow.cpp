@@ -247,6 +247,9 @@ void MainWindow::connectSignals()
     connect(FileText, &QTextEdit::textChanged, this, &MainWindow::signalTextFieldChanged);
 
     connect(fontSizeSpinBox, QOverload<int>::of(&QSpinBox::valueChanged), this, &MainWindow::changeFontSize);
+
+    connect(About, &QAction::triggered, this, &MainWindow::signalShowAbout);
+    connect(Reference, &QAction::triggered, this, &MainWindow::signalShowReference);
 }
 
 MainWindow::~MainWindow() {}
@@ -371,6 +374,26 @@ void MainWindow::changeFontSize(int size) {
     QFont font = FileText->font();
     font.setPointSize(size);
     FileText->setFont(font);
+}
+
+void MainWindow::signalShowAbout()
+{
+    QMessageBox::about(this, "Про застосунок",
+                       "Программа для редактування текстових файлів\n"
+                       "Версія: 1.0\n"
+                       "Рік: 2024");
+}
+
+void MainWindow::signalShowReference()
+{
+    QMessageBox::about(this, "Довідка",
+                             "Це текст довідка про використання програми.\n"
+                             "1. Новий файл: стровює новий пустий файл.\n"
+                             "2. Відкрити файл: відкриває файл вибраний з системи.\n"
+                             "3. Зберегти: зберігає файл(якщо файл створенний в системі).\n"
+                             "4. Зберегти як: зберігає файл в новий файл.\n"
+                             "5. Очистити текстове поле: очищує текстове поле.\n"
+                             "6. Провірити текст: Перевiрка, що пiсля крапки/коми стоїть пробiл та виправлення за необхiдностi.");
 }
 
 void MainWindow::signalTextFieldChanged() {}

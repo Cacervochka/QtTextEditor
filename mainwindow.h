@@ -19,6 +19,7 @@
 #include <QToolButton>
 #include <QComboBox>
 #include <QSpinBox>
+#include <QMessageBox>
 
 class MainWindow : public QMainWindow
 {
@@ -119,6 +120,9 @@ private slots:
     void changeFontSize(int size);
 
     void signalTextFieldChanged();
+
+    void signalShowAbout();
+    void signalShowReference();
 };
 
 
