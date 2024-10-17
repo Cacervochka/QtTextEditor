@@ -244,7 +244,7 @@ void MainWindow::connectSignals()
     connect(CheckText, &QAction::triggered, this, &MainWindow::signalCheckText);
     connect(CheckTextButton, &QPushButton::pressed, this, &MainWindow::signalCheckText);
 
-    connect(FileText, &QTextEdit::textChanged, this, &MainWindow::signalTextFieldChanged);
+    connect(FileText, &QTextEdit::textChanged, this, &MainWindow::onTextChanged);
 
     connect(fontSizeSpinBox, QOverload<int>::of(&QSpinBox::valueChanged), this, &MainWindow::changeFontSize);
 
@@ -259,11 +259,13 @@ void MainWindow::signalNewFile()
 {
     FileText->clear();
     FileName->setText("Новий файл");
+
+    filePath.clear();
 }
 
 void MainWindow::signalOpenFile()
 {
-    QString filePath = QFileDialog::getOpenFileName(this,
+    filePath = QFileDialog::getOpenFileName(this,
                                                     "Відкрити файл",
                                                     "",
                                                     "Текстові файли (*.txt)");
@@ -276,7 +278,7 @@ void MainWindow::signalOpenFile()
             // Отримання тільки імені файлу
             QFileInfo fileInfo(filePath);
             QString fileName = fileInfo.fileName();
-            FileName->setText(fileName); // Зберігаємо тільки ім'я файлу
+            FileName->setText(fileName);
 
             QFont font = FileText->font();
             fontSizeSpinBox->setValue(font.pointSize());
@@ -289,15 +291,25 @@ void MainWindow::signalOpenFile()
 void MainWindow::signalSaveFile()
 {
     QString fileName = FileName->text();
-    if (fileName.isEmpty() || fileName == "Новий файл") {
+    if (fileName.endsWith("*")) {
+        fileName.chop(1); // Удаляем '*' из конца строки
+    }
+
+
+    if (filePath.isEmpty() || fileName == "Новий файл") {
         signalSaveFileAs();
     } else {
-        QFile file(fileName);
+        QFile file(filePath);
         if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
             QTextStream out(&file);
             out << FileText->toPlainText();
-
             file.close();
+
+            QString currentFileName = FileName->text();
+            if (currentFileName.endsWith("*")) {
+                currentFileName.chop(1);
+            }
+            FileName->setText(currentFileName);
         }
     }
 }
@@ -396,4 +408,10 @@ void MainWindow::signalShowReference()
                              "6. Провірити текст: Перевiрка, що пiсля крапки/коми стоїть пробiл та виправлення за необхiдностi.");
 }
 
-void MainWindow::signalTextFieldChanged() {}
+void MainWindow::onTextChanged()
+{
+    // Если в названии файла ещё нет '*', добавляем её
+    if (!FileName->text().endsWith("*")) {
+        FileName->setText(FileName->text() + "*");
+    }
+}

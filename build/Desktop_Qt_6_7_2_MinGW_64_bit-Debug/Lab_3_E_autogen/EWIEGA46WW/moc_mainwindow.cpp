@@ -51,7 +51,7 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "signalCheckText",
     "changeFontSize",
     "size",
-    "signalTextFieldChanged",
+    "onTextChanged",
     "signalShowAbout",
     "signalShowReference"
 );
@@ -144,7 +144,7 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // method 'changeFontSize'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        // method 'signalTextFieldChanged'
+        // method 'onTextChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'signalShowAbout'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
@@ -172,7 +172,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 9: _t->signalTextDown(); break;
         case 10: _t->signalCheckText(); break;
         case 11: _t->changeFontSize((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 12: _t->signalTextFieldChanged(); break;
+        case 12: _t->onTextChanged(); break;
         case 13: _t->signalShowAbout(); break;
         case 14: _t->signalShowReference(); break;
         default: ;

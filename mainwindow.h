@@ -87,6 +87,8 @@ private:
     QTextEdit* FileText;
     QLabel* FileName;
     QFont font;
+    QString filePath;
+
 
     QWidget* centralWidget;
 
@@ -119,7 +121,7 @@ private slots:
 
     void changeFontSize(int size);
 
-    void signalTextFieldChanged();
+    void onTextChanged();
 
     void signalShowAbout();
     void signalShowReference();
