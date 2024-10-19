@@ -180,7 +180,9 @@ C:/Qt project/Lab_3_E/mainwindow.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QSpinBox
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QStatusBar
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QTextEdit
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QToolBar
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QToolButton
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
@@ -208,11 +210,13 @@ C:/Qt project/Lab_3_E/mainwindow.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qspinbox.h
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstatusbar.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtextedit.h
+ mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtoolbar.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtoolbutton.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h

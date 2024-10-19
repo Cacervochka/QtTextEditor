@@ -138,6 +138,13 @@ void MainWindow::createMenu()
 //Creating 2 Docks
 void MainWindow::createDocks()
 {
+    TopToolBar=addToolBar("F");
+    TopToolBar->addActions(EditList);
+
+    TopToolBar->setMaximumHeight(25);
+
+    MainStatus=this->statusBar();
+
     /////////////////////////// TopDock
 
     TopDock = new QDockWidget(this);
@@ -183,6 +190,30 @@ void MainWindow::createDocks()
     RightDock->setWidget(RightField);
 
     ///////////////////////////
+
+
+
+}
+
+void MainWindow::updateStatusBar()
+{
+    // Очищаем статус-бар
+    MainStatus->clearMessage();
+
+    // Добавляем информацию о сохраненном файле
+    pathLabel = new QLabel("Файл сохранен: " + filePath, this);
+    clearButton = new QPushButton("Убрать", this);
+
+    // Удаляем информацию из статус-бара при нажатии кнопки "Убрать"
+    connect(clearButton, &QPushButton::clicked, this, [this]() {
+        MainStatus->clearMessage();
+        MainStatus->removeWidget(pathLabel);
+        MainStatus->removeWidget(clearButton);
+    });
+
+    // Добавляем в статус-бар виджеты
+    MainStatus->addWidget(pathLabel, 1);  // Добавляем текст с путем
+    MainStatus->addWidget(clearButton);  // Добавляем кнопку "Убрать"
 }
 
 //Creating TextField at central widget
@@ -310,13 +341,15 @@ void MainWindow::signalSaveFile()
                 currentFileName.chop(1);
             }
             FileName->setText(currentFileName);
+
+            updateStatusBar();
         }
     }
 }
 
 void MainWindow::signalSaveFileAs()
 {
-    QString filePath = QFileDialog::getSaveFileName(this,
+    filePath = QFileDialog::getSaveFileName(this,
                                                     "Зберегти як",
                                                     "Новий файл",
                                                     "Текстові файли (*.txt)");

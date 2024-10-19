@@ -186,7 +186,9 @@ Lab_3_E_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QSpinBox \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QStatusBar \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QTextEdit \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QToolBar \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QToolButton \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -214,11 +216,13 @@ Lab_3_E_autogen/timestamp: \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qspinbox.h \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstatusbar.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtextedit.h \
+	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtoolbar.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtoolbutton.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \

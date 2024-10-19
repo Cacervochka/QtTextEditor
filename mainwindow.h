@@ -20,6 +20,8 @@
 #include <QComboBox>
 #include <QSpinBox>
 #include <QMessageBox>
+#include <QToolBar>
+#include <QStatusBar>
 
 class MainWindow : public QMainWindow
 {
@@ -41,6 +43,8 @@ public:
     bool deleteTextField();
 
     void connectSignals();
+
+    void updateStatusBar();
 
 private:
     QMenuBar* Menu;
@@ -77,6 +81,11 @@ private:
     QToolButton* TextUpButton;
     QToolButton* TextDownButton;
     QToolButton* CheckTextButton;
+    QToolBar* TopToolBar;
+
+    QLabel* pathLabel;
+    QPushButton* clearButton;
+    QStatusBar* MainStatus;
 
     QAction* About;
     QAction* Reference;
@@ -88,6 +97,7 @@ private:
     QLabel* FileName;
     QFont font;
     QString filePath;
+
 
 
     QWidget* centralWidget;

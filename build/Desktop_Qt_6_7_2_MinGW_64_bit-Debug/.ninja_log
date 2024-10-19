@@ -1,43 +1,49 @@
 # ninja log v6
-25	195	7508362919497619	Lab_3_E_autogen/timestamp	a6395f7f562c1770
-25	195	7508362919497619	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
-25	195	7508362919497619	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-2420	2675	7508362943454883	Lab_3_E.exe	d87eb1891b5b822e
+25	849	7510353643454839	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
+25	849	7510353643454839	Lab_3_E_autogen/timestamp	a6395f7f562c1770
+3522	3790	7510353670995013	Lab_3_E.exe	d87eb1891b5b822e
+25	849	7510353643454839	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
 287	410	7508305273962437	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/EWIEGA46WW/qrc_resourses.cpp	d22f13f54b66ae64
-25	195	7508362919497619	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-196	2420	7508362921202495	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
-830	3585	7508357876469636	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/mocs_compilation.cpp.obj	e3688dd3fea5bc61
-850	3600	7508357876669668	CMakeFiles/Lab_3_E.dir/main.cpp.obj	5692263078dcd5a7
+25	849	7510353643454839	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+850	3324	7510353644279562	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/mocs_compilation.cpp.obj	e3688dd3fea5bc61
+885	3522	7510353644630368	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
+872	3322	7510353644497851	CMakeFiles/Lab_3_E.dir/main.cpp.obj	5692263078dcd5a7
 186	253	7503754580632330	Lab_3_E_autogen/EWIEGA46WW/qrc_resources.cpp	3ae35613de7ce993
 186	253	7503754580632330	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/EWIEGA46WW/qrc_resources.cpp	3ae35613de7ce993
 254	399	7503754580689455	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/EWIEGA46WW/qrc_resources.cpp.obj	bd82ce6bc8c8ea50
 287	410	7508305273962437	Lab_3_E_autogen/EWIEGA46WW/qrc_resourses.cpp	d22f13f54b66ae64
 436	804	7508305274340238	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/EWIEGA46WW/qrc_resourses.cpp.obj	c16d3f14712ab97d
-34	205	7508363178499709	Lab_3_E_autogen/timestamp	a6395f7f562c1770
-34	205	7508363178499709	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-34	205	7508363178499709	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
-34	205	7508363178499709	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-206	2563	7508363180222681	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
-2563	2813	7508363203794603	Lab_3_E.exe	d87eb1891b5b822e
-14	865	7508368900509659	Lab_3_E_autogen/timestamp	a6395f7f562c1770
-14	865	7508368900509659	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-14	865	7508368900509659	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
-14	865	7508368900509659	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-888	3344	7508368901621313	CMakeFiles/Lab_3_E.dir/main.cpp.obj	5692263078dcd5a7
-866	3355	7508368901405645	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/mocs_compilation.cpp.obj	e3688dd3fea5bc61
-901	3572	7508368901751699	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
-3573	3847	7508368928465558	Lab_3_E.exe	d87eb1891b5b822e
-25	198	7508372200975602	Lab_3_E_autogen/timestamp	a6395f7f562c1770
-25	198	7508372200975602	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-25	198	7508372200975602	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
-25	198	7508372200975602	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-199	2499	7508372202711327	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
-2499	2794	7508372225710899	Lab_3_E.exe	d87eb1891b5b822e
-15	802	7508374509525506	Lab_3_E_autogen/timestamp	a6395f7f562c1770
-15	802	7508374509525506	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-15	802	7508374509525506	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
-15	802	7508374509525506	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
-803	3100	7508374510262902	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/mocs_compilation.cpp.obj	e3688dd3fea5bc61
-822	3139	7508374510457155	CMakeFiles/Lab_3_E.dir/main.cpp.obj	5692263078dcd5a7
-836	3287	7508374510592729	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
-3288	3551	7508374535108420	Lab_3_E.exe	d87eb1891b5b822e
+25	197	7510354001697565	Lab_3_E_autogen/timestamp	a6395f7f562c1770
+25	197	7510354001697565	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+25	197	7510354001697565	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
+25	197	7510354001697565	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+198	2621	7510354003431481	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
+2621	2889	7510354027662508	Lab_3_E.exe	d87eb1891b5b822e
+25	825	7510355051960241	Lab_3_E_autogen/timestamp	a6395f7f562c1770
+25	825	7510355051960241	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+25	825	7510355051960241	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
+25	825	7510355051960241	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+826	3189	7510355052689671	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/mocs_compilation.cpp.obj	e3688dd3fea5bc61
+846	3213	7510355052883619	CMakeFiles/Lab_3_E.dir/main.cpp.obj	5692263078dcd5a7
+858	3420	7510355053005234	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
+3420	3692	7510355078626189	Lab_3_E.exe	d87eb1891b5b822e
+28	201	7510355203995373	Lab_3_E_autogen/timestamp	a6395f7f562c1770
+28	201	7510355203995373	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+28	201	7510355203995373	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
+28	201	7510355203995373	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+202	2655	7510355205737305	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
+2655	2919	7510355230274513	Lab_3_E.exe	d87eb1891b5b822e
+33	1042	7510358208519697	Lab_3_E_autogen/timestamp	a6395f7f562c1770
+33	1042	7510358208519697	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+33	1042	7510358208519697	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
+33	1042	7510358208519697	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+1043	3911	7510358209435206	CMakeFiles/Lab_3_E.dir/Lab_3_E_autogen/mocs_compilation.cpp.obj	e3688dd3fea5bc61
+1071	3921	7510358209715731	CMakeFiles/Lab_3_E.dir/main.cpp.obj	5692263078dcd5a7
+1087	4099	7510358209874975	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
+4099	4373	7510358239998762	Lab_3_E.exe	d87eb1891b5b822e
+13	189	7510360397582439	Lab_3_E_autogen/timestamp	a6395f7f562c1770
+13	189	7510360397582439	Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+13	189	7510360397582439	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/timestamp	a6395f7f562c1770
+13	189	7510360397582439	C:/Qt project/Lab_3_E/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Lab_3_E_autogen/mocs_compilation.cpp	a6395f7f562c1770
+190	2659	7510360399346354	CMakeFiles/Lab_3_E.dir/mainwindow.cpp.obj	ffd558f5c0102c7
+2659	2924	7510360424039068	Lab_3_E.exe	d87eb1891b5b822e
